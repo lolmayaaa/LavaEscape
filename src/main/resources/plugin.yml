@@ -1,0 +1,17 @@
+name: LavaEscape
+version: 1.0
+main: lol.mayaaa.lavaescape.LavaEscape
+api-version: 1.8
+commands:
+  adminlavaescape:
+    description: Admin commands for LavaEscape
+    usage: /adminlavaescape <createarena|setlobbyspawn|setspawn>
+    permission: lavaescape.admin
+    permission-message: "§cYou don't have permission to use this command!"
+  lavaescape:
+    description: Player commands for LavaEscape
+    usage: /lavaescape <join|start>
+permissions:
+  lavaescape.admin:
+    description: Allows access to LavaEscape admin commands
+    default: op
